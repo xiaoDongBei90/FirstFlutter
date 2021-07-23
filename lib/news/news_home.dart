@@ -16,8 +16,7 @@ class _NewsHomeState extends State<NewsHome> {
         children: [
           NewsHeadGridWidget(),
           BannerWidget(),
-          // ImportTabWidget()
-          ImportNewsListWidget()
+          ImportTabWidget()
         ],
       ),
     );

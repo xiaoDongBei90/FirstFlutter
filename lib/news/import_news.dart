@@ -1,3 +1,5 @@
+// ignore: import_of_legacy_library_into_null_safe
+import 'package:date_format/date_format.dart';
 import 'package:first_flutter/mockdata/news_mock_data.dart';
 import 'package:flutter/material.dart';
 
@@ -12,25 +14,25 @@ class ImportTabWidget extends StatefulWidget {
 
 class _ImportTabState extends State<ImportTabWidget>
     with SingleTickerProviderStateMixin {
-  late TabController tabController;
+  late TabController _tabController;
 
   @override
   Widget build(BuildContext context) {
     return TabsWidget(
-        title: "", demos: newsTabList, tabController: tabController);
+        title: "", demos: newsTabList, tabController: _tabController);
   }
 
   @override
   void initState() {
     super.initState();
-    this.tabController =
+    this._tabController =
         new TabController(length: newsTabList.length, vsync: this);
   }
 
   @override
   void dispose() {
+    this._tabController.dispose();
     super.dispose();
-    this.tabController.dispose();
   }
 }
 
@@ -47,18 +49,27 @@ class TabsWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(this.title),
-        bottom: TabBar(
-          controller: this.tabController,
-          isScrollable: true,
-          tabs: this.demos.map((item) => Tab(text: item.title)).toList(),
-        ),
-      ),
-      body: TabBarView(
-        controller: this.tabController,
-        children: this.demos.map((item) => item.widget).toList(),
+    return Flexible(
+      fit: FlexFit.loose,
+      child: Column(
+        children: [
+          TabBar(
+            labelStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            unselectedLabelStyle: TextStyle(fontSize: 16),
+            controller: this.tabController,
+            labelColor: Colors.blue,
+            unselectedLabelColor: Colors.grey,
+            indicatorColor: Colors.orangeAccent,
+            tabs: this.demos.map((item) => Tab(text: item.title)).toList(),
+          ),
+          Expanded(
+            flex: 1,
+            child: TabBarView(
+              controller: this.tabController,
+              children: this.demos.map((item) => item.widget).toList(),
+            ),
+          )
+        ],
       ),
     );
   }
@@ -95,6 +106,7 @@ class ImportNewsListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var nowDate = formatDate(DateTime.now(), [yyyy, '-', mm, '-', dd]);
     return Container(
       height: 80,
       child: Row(
@@ -111,7 +123,8 @@ class ImportNewsListItem extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  importNewsDataModel.date,
+                  nowDate,
+                  // importNewsDataModel.date,
                   style: TextStyle(color: Colors.black, fontSize: 12),
                 ),
               ],

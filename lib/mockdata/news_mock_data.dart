@@ -37,6 +37,74 @@ const List<ImportNewsDataModel> importNewsList = [
       title: "就哦谨哦批发价视频佛教破手机频繁的精神",
       date: "2021-7-7",
       imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "iv好似uvhi被欺负iu去何方",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon1.png"),
+  ImportNewsDataModel(
+      title: "i一会开会空间的水分快速的减肥还是匡扶汉室始i一会开会空间的水分快速的减肥还是匡扶汉室始",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon2.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "iv好似uvhi被欺负iu去何方",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon1.png"),
+  ImportNewsDataModel(
+      title: "i一会开会空间的水分快速的减肥还是匡扶汉室始i一会开会空间的水分快速的减肥还是匡扶汉室始",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon2.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
+  ImportNewsDataModel(
+      title: "就哦谨哦批发价视频佛教破手机频繁的精神",
+      date: "2021-7-7",
+      imagePath: "images/2.0x/bg_news_icon3.png"),
 ];
 
 List<NewsTabModel> newsTabList = [
