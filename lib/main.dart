@@ -1,3 +1,4 @@
+import 'package:first_flutter/ez_main.dart';
 import 'package:first_flutter/news/news_home.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: NewsHome(),
+      home: EzMain(),
     );
   }
 }
