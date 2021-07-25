@@ -12,14 +12,21 @@ class _NewsHomeState extends State<NewsHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          NewsHeadGridWidget(),
-          BannerWidget(),
-          ImportTabWidget()
-        ],
-      ),
-    );
+        body: Container(
+            child: SafeArea(
+                child: NestedScrollView(
+      headerSliverBuilder: (BuildContext context, bool a) => [
+        SliverToBoxAdapter(
+          child: Column(
+            children: [
+              NewsHeadGridWidget(),
+              BannerWidget(),
+            ],
+          ),
+        ),
+      ],
+      body: ImportTabWidget(),
+    ))));
   }
 }
 
