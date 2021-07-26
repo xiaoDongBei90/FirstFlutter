@@ -1,7 +1,6 @@
 import 'package:first_flutter/router/ez_router.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import 'flutter_unit_text.dart';
 import 'ez_paint.dart';

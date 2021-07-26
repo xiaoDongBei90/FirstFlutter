@@ -1,7 +1,5 @@
-import 'package:first_flutter/commonwidget/splash/ez_splash.dart';
-import 'package:first_flutter/ez_main.dart';
-import 'package:first_flutter/news/news_home.dart';
 import 'package:first_flutter/router/ez_router.dart';
+import 'package:first_flutter/splash/ez_splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,4 +1,3 @@
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:date_format/date_format.dart';
 import 'package:first_flutter/mockdata/news_mock_data.dart';
 import 'package:flutter/material.dart';

@@ -61,7 +61,6 @@ class EzMainState extends State<EzMain> {
     ),
   ];
 
-  /*切换页面*/
   void _changePage(int index) {
     /*如果点击的导航项不是当前项  切换 */
     if (index != _currentIndex) {
